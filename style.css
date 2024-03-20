@@ -1,0 +1,19 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.body-utama{
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/290595/pexels-photo-290595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.card{
+    border-radius: 25px;
+    max-width: 800px;
+}
+
+.data-tampil{
+    display: inline-block; 
+    width: 150px;
+}
+
