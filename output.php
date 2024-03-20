@@ -36,7 +36,7 @@
                             $dest = getcwd()."/uploads/".$_FILES['upFile']['name'];
                             move_uploaded_file($temp, $dest);
                         ?>
-                        <img src="uploads/<?php echo $_FILES['upFile']['name']; ?>" class="img-fluid rounded-start w-100 h-100" alt="Profile Picture">
+                        <img src="uploads/<?php echo $_FILES['upFile']['name']; ?>" class="img-fluid w-100 h-100" alt="Profile Picture">
                     </div>
 
                     <!-- Bagian Informasi -->
